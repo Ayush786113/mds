@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Paytone One', sans-serif;
+}
+
+body{
+	background-color: rgba(57, 53, 53, 1);
+}
+
+p{
+	color: white;
+	font-family: 'Rokkitt', serif;
+	font-size: 15px;
+	line-height: 100%;
+}
+
+button{
+	background-color: white;
+	width: 100%;
+	height: auto;
+	border-radius: 11px;
+	opacity: 0.5;
+	font-size: 18px;
+	color: black;
+	position: relative;
+}
+
+a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin: 14px 14px;
+	font-family: 'Rokkitt', serif;
+	font-size: 36px;
+}
+
+img{
+	width: 100%;
+	height: 50%;
+	opacity: 0.5;
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fab{
+	margin-right: 20px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 20px 20px;
+	padding: 10px;
+}
+
+.container{
+	animation: 1s slider;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	margin-top: 15px;
+}
+
+.data{
+	line-height: 5vh;
+	width: 100%;
+	height: auto;
+	background-position: auto;
+	background-size: cover;
+}
+
+.addr{
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.pin{
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.text{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+}
+
+.nav{
+	color: white;
+	margin-left: 5px;
+	font-size: 80%;
+}
+
+@media (min-width: 700px){
+	p{
+		font-size: 48px;
+	}
+	button{
+		font-size: 54px;
+		border-radius: 54px;
+	}
+	h1{
+		font-size: 96px;
+		line-height: 1em
+	}
+	.addr, .pin{
+		font-size: 54px;
+		line-height: 1em;
+	}
+	.nav{
+		color: white;
+		margin-left: 50px;
+		font-size: 250%;
+	}
+	.fab{
+		font-size: 25px;
+	}
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: rgba(57, 53, 53, 1);
+}
+
+a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+form{
+	color: white;
+	display: grid;
+	justify-content: center;
+	margin: 50% auto;
+	font-size: 25px;
+}
+
+input{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 25px;
+	padding: 5px;
+}
+
+textarea{
+	padding: 5px;
+}
+
+button{
+	margin-top: 10px;
+	font-size: 25px;
+	background-color: rgba(57, 53, 53, 1);
+	color: white;
+	opacity: 0.8;
+	padding: 10px;
+	cursor: pointer;
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fab{
+	margin-right: 20px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 20px 20px;
+	padding: 10px;
+}
+
+.nav{
+	color: white;
+	margin-left: 5px;
+	font-size: 80%;
+}
+
+.form-feild{
+	display: grid;
+	justify-content: center;
+}
+
+@media (min-width: 700px){
+	.nav{
+		color: white;
+		margin-left: 50px;
+		font-size: 250%;
+	}
+	.fab{
+		font-size: 25px;
+	}
+}
